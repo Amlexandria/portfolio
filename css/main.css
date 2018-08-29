@@ -1,0 +1,60 @@
+#home-gif{
+    background-image: url("../assets/img/home.gif");
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    background-color: transparent;
+    border-right: 1px solid #515A5A;
+    height: 100vh;
+    position: fixed;
+    /* padding-top: 50vh; */
+    z-index: 10;
+}
+
+.menu-text{
+    margin-top: 40vh;
+    margin-left: 1.8rem;
+    /* width: 23%; */
+    position: absolute;
+    /* z-index: 11; */
+}
+
+section.menu {
+    background: linear-gradient(to right, rgba(255,3,53,1) 0%, rgba(237,29,70,1) 33%, rgba(254,182,69,1) 100%);
+    height: 100vh;
+    padding-top: 11rem;
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    letter-spacing: 12px;
+}
+
+.works{
+    background-image: url("../assets/img/data-dash.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+h4 {
+    margin-top: 6rem;
+}
+
+.category {
+    font-size: 9pt;
+    color: blueviolet;
+    margin-bottom: 0;
+}
+
+.category-text {
+    font-size: 8pt;
+    margin-top: 0;
+}
+
+.works.btn {
+    margin-left: 10rem;
+}
